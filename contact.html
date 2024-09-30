@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <meta name="description" content="">
+    <title>お問い合わせ</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Sawarabi+Gothic&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <img src="logo/s1_illust1.svg" alt="会社ロゴ">
+        <h1>厨房レイアウト無料診断申し込み</h1>
+    </header>
+
+    <div class="text-form">
+        <p>
+            厨房レイアウト無料診断申し込みをご希望の方は、<br class="pc_tb_only">下記のお客様情報をご入力ください。
+        </p>
+        <p>
+            弊社にてお客様のご入力情報を確認後、担当者より随時メールにて日程調整のご連絡をお送りさせていただきます。<br class="pc_only">なお休日等により、ご回答に時間がかかる場合がございますので予めご了承くださいませ。
+        </p>
+    </div>
+
+    <form>
+        <div class="form-group">
+            <div class="form-container">
+                <div class="form-container1">
+                    <div class="form-contents1">
+                        <label for="company">会社名 <span class="red">*</span></label><br>
+                        <input type="text" id="company" name="company" required>
+                    </div>
+                    <div class="form-contents1">
+                        <label for="name">氏名 <span class="red">*</span></label><br>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                </div>
+                <div class="form-container1">
+                    <div class="form-contents1">
+                        <label for="mail">メールアドレス <span class="red">*</span></label><br>
+                        <input type="mail" id="mail" name="mail" required>
+                    </div>
+                    <div class="form-contents1">
+                        <label for="phonenumber">電話番号 <span class="red">*</span></label><br>
+                        <input type="tel" id="phonenumber" name="phonenumber">
+                    </div>
+                </div>
+            </div>
+            <div class="form-contents2">
+                <label for="message">備考</label><br>
+                <textarea id="message" name="message" rows="5"></textarea>
+            </div>
+        </div>
+        <p>
+            弊社は、本Webサイトにおけるご質問や資料請求にご記入頂きました個人情報を<br class="pc_tb_only">個人情報保護方針に従い適切に管理いたします。
+        </p>
+        <button onclick="location.href='thanks.html'"><img src="logo/form_btn.svg" alt="入力情報送信ボタン"></button>
+    </form>
+
+    <footer class="footer-form">
+        <p>Copyright<span class="copyright" style="font-family:monospace;">&copy;</span>FUJI INDUSRIES CO.,LTD. All rights reserved.</p>
+    </footer>
+    
+</body>
+
+</html>
