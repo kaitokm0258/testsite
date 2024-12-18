@@ -144,6 +144,36 @@ main {
     display: none;
 }
 
+.btn1,.s3_btn1_move,.s4_btn1,.s5_btn1,.s11_btn1,.s12_btn1 {
+    animation-name:btn-animation;
+    animation-delay: 0s;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes btn-animation {
+    0% {
+        transform: translateY(0);
+    }
+
+    40% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+
+    65% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
 @media screen and (max-width: 409px) {
 
     .s1_pic2 img {
